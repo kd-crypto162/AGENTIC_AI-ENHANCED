@@ -19,3 +19,13 @@ python -m agent.run_agent --log-file agent/sample_ci_log.txt
 
 Expected: the agent classifies the sample log as “Reports/Artifacts missing …”.
 
+### Architecture diagram screenshot checklist (Before / After)
+
+Create both diagrams in `draw.io` or `Lucidchart` (as the assignment requests), then:
+
+- Screenshot (or export PNG) of the **Before (legacy monolith)** architecture diagram.
+- Screenshot (or export PNG) of the **After (cloud-native microservices)** architecture diagram.
+
+Where to include these in your PDF:
+- In `report/report.md` under **“Modernisation Analysis (Before / After)”**.
+

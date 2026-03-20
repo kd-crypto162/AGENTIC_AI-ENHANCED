@@ -25,6 +25,8 @@ flowchart LR
   Web --> Deploy[Manual Deploy]
 ```
 
+Draw.io/Lucidchart requirement: export this **Before** diagram from `draw.io` or `Lucidchart` and insert the screenshot into this section in your final PDF.
+
 #### After (cloud-native)
 
 - Decompose into microservices.
@@ -44,6 +46,8 @@ flowchart LR
   ServiceB --> Obs
   Deploy[CI/CD Pipeline] --> LB
 ```
+
+Draw.io/Lucidchart requirement: export this **After** diagram from `draw.io` or `Lucidchart` and insert the screenshot into this section in your final PDF.
 
 ### 2) Cloud-Native Design
 
