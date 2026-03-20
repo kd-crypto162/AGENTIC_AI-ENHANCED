@@ -1,6 +1,5 @@
 ## Assignment 2 — Agentic AI-Enhanced DevOps Automation
 
-### Repository
 
 This repository contains:
 
@@ -8,7 +7,7 @@ This repository contains:
 - A max-5-page **architecture + reflection report** (in `report/`)
 - Evidence notes for screenshots/demos (in `evidence/`)
 
-### Agent selection (meets requirement)
+### Agent selection 
 
 The agent performs:
 
@@ -17,8 +16,6 @@ The agent performs:
 3. **Self-reflection step** (checks consistency of the classification)
 
 Then it prints a **final answer**: failure category + recommended fix.
-
-Run it with:
 
 ```bash
 python -m agent.run_agent --log-file agent/sample_ci_log.txt

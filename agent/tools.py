@@ -14,7 +14,5 @@ def search_log(log_text: str, patterns: list[str]) -> dict[str, list[str]]:
         for p in patterns:
             if p.lower() in line.lower():
                 results[p].append(line.strip())
-
-    # Remove empty entries for readability.
     return {p: matches for p, matches in results.items() if matches}
 

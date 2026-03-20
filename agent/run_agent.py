@@ -58,7 +58,6 @@ def tool_call_node(state: AgentState) -> AgentState:
     if state["matches"]:
         for pattern, lines in state["matches"].items():
             print(f"\nMatches for: {pattern}")
-            # Print only first 3 lines for readability.
             for l in lines[:3]:
                 print(" -", l)
     else:
