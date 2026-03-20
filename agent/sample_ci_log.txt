@@ -1,0 +1,14 @@
+Build, test, coverage, SAST
+Process completed with exit code 1.
+No files were found with the provided path: assignment-1/app/build/reports/** assignment-1/app/build/test-results/**.
+Node.js 20 actions are deprecated.
+
+--- Example keywords the agent searches for ---
+ERROR:
+FAILURE:
+SpotBugs
+Checkstyle
+jacoco
+JUnit
+exit code
+
